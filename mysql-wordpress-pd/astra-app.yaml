@@ -1,12 +1,12 @@
 apiVersion: astra.netapp.io/v1
 kind: AstraApplication
 metadata:
-  name: app1-data-only
+  name: my-app
 spec:
   type: application/astra-app
   version: "2.1"
-  name: app1-data-only
+  name: my-app
   namespaceScopedResources:
-    - namespace: app1
+    - namespace: my-app
       labelSelectors:
         - astra=data-only

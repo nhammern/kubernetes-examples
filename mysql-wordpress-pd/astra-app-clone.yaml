@@ -1,0 +1,9 @@
+apiVersion: astra.netapp.io/v1
+kind: AstraApplication
+metadata:
+  name: my-app-clone
+spec:
+  type: application/astra-app
+  version: "2.1"
+  name: my-app-clone
+  sourceApp: my-app
