@@ -6,6 +6,7 @@ spec:
   type: application/astra-app
   version: "2.1"
   name: my-app-clone
+  sourceClusterID: "9c901f2f-b938-4717-bf19-0e1db9fc4ea0"
   sourceAppID: "0ad1352b-acab-456c-af0a-0e46b0280463"
   namespaceMapping:
     - source: my-app
