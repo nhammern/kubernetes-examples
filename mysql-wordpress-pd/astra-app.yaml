@@ -6,8 +6,6 @@ spec:
   type: application/astra-app
   version: "2.1"
   name: app1-data-only
-  clusterID: 9c901f2f-b938-4717-bf19-0e1db9fc4ea0
-  accountID: d868e876-0586-40d1-97a3-65a99712c74e
   namespaceScopedResources:
     - namespace: app1
       labelSelectors:
