@@ -7,3 +7,6 @@ spec:
   version: "2.1"
   name: my-app-clone
   sourceAppID: "0ad1352b-acab-456c-af0a-0e46b0280463"
+  namespaceMapping:
+    source: my-app
+    destination: my-app-clone
